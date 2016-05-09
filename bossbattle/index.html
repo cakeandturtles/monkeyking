@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>boss battle</title>
+<link rel="stylesheet" type="text/css" href="bossbattle/style.css"/>
+<style type="text/css">
+	body{ padding:0px; margin:0px; }
+</style>
+
+<!--Load all the scripts to be used-->
+<script>var main_dir = "bossbattle";</script>
+<script type="text/javascript" src="bossbattle/strokeText.js"></script>
+<script type="text/javascript" src="bossbattle/Utils.js"></script>
+<script type="text/javascript" src="bossbattle/md5.js"></script>
+<script type="text/javascript" src="bossbattle/managers/KeyManager.js"></script>
+<script type="text/javascript" src="bossbattle/managers/InputManager.js"></script>
+<script type="text/javascript" src="bossbattle/managers/ResourceManager.js"></script>
+<script type="text/javascript" src="bossbattle/managers/LevelEditManager.js"></script>
+<script type="text/javascript" src="bossbattle/GJAPI.js"></script>
+<script type="text/javascript" src="bossbattle/Main.js"></script>
+
+<!--Dungeon and Rooms-->
+<script type="text/javascript" src="bossbattle/rooms/Dungeon.js"></script>
+<script type="text/javascript" src="bossbattle/rooms/Room.js"></script>
+<script type="text/javascript" src="bossbattle/rooms/Camera.js"></script>
+
+<!--Entities-->
+<script type="text/javascript" src="bossbattle/entities/GameObject.js"></script>
+<script type="text/javascript" src="bossbattle/entities/helpers/Animation.js"></script>
+<script type="text/javascript" src="bossbattle/entities/GameSprite.js"></script>
+<script type="text/javascript" src="bossbattle/entities/GameMover.js"></script>
+<script type="text/javascript" src="bossbattle/entities/Tile.js"></script>
+<script type="text/javascript" src="bossbattle/entities/Critter.js"></script>
+<script type="text/javascript" src="bossbattle/entities/Enemy.js"></script>
+<script type="text/javascript" src="bossbattle/entities/objects/Fire.js"></script>
+<script type="text/javascript" src="bossbattle/entities/objects/Collection.js"></script>
+<script type="text/javascript" src="bossbattle/entities/Boss.js"></script>
+<script type="text/javascript" src="bossbattle/entities/NPC.js"></script>
+<script type="text/javascript" src="bossbattle/entities/Player.js"></script>
+
+</head>
+<body>
+	<canvas id="game_canvas" class="centerMe" oncontextmenu="return false;"></canvas>
+</body>
+</html>
